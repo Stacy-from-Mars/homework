@@ -1,0 +1,30 @@
+.App {
+    --header_height: 60px;
+
+}
+
+.hw {
+    position: absolute;
+    width: 1280px;
+    height: 373px;
+    left: 0;
+    top: 150px;
+
+}
+
+.hwTitle {
+    width: 165px;
+    height: 30px;
+    left: 70px;
+    top: 130px;
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+
+body {
+    background-image: url('D:/it-incubator/hws2/src/s2-homeworks/hw01/cloud.png');
+}
