@@ -3,7 +3,7 @@
 
 }
 
-.hw {
+.hw1, .hw2 {
     position: absolute;
     width: 1280px;
     height: 373px;
@@ -13,9 +13,11 @@
 }
 
 .hwTitle {
-    width: 165px;
+    margin: 40px 0 40px;
+    padding: 40px;
+    width: auto;
     height: 30px;
-    left: 70px;
+    left: 50px;
     top: 130px;
     font-family: 'Constantia';
     font-style: normal;
@@ -23,8 +25,14 @@
     font-size: 20px;
     line-height: 25px;
     color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 body {
     background-image: url('D:/it-incubator/hws2/src/s2-homeworks/hw01/cloud.png');
+    margin: 50px;
 }
