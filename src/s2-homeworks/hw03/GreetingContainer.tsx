@@ -18,7 +18,7 @@ export const pureAddUser = (name: string, setError: any, setName: any, addUserCa
 }
 
 export const pureOnBlur = (name: string, setError: any) => { // если имя пустое - показать ошибку
-    if (name === ""){
+    if (name === "") {
         setError('Ошибка! Введите имя!')
     }
 }
@@ -34,9 +34,9 @@ export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: any) =>
 
 // более современный и удобный для про :)
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
-    users,
-    addUserCallback,
-}) => {
+                                                                     users,
+                                                                     addUserCallback,
+                                                                 }) => {
     // деструктуризация пропсов
     const [name, setName] = useState('') // need to fix any
     const [error, setError] = useState('') // need to fix any
