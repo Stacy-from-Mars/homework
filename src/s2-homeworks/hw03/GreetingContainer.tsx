@@ -31,7 +31,6 @@ export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: any) =>
 
 // более простой и понятный для новичков
 // function GreetingContainer(props: GreetingPropsType) {
-
 // более современный и удобный для про :)
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
                                                                      users,
