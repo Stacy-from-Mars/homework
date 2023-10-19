@@ -52,6 +52,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const onBlur = () => {
         pureOnBlur(name, setError)
     }
+
     const onEnter = (e: any) => {
         pureOnEnter(e, addUser)
     }
