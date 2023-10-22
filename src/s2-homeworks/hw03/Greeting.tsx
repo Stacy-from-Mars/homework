@@ -22,6 +22,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         onBlur,
         error,
         totalUsers,
+
         lastUserName,
 
     } // деструктуризация пропсов
