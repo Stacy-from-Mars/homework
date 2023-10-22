@@ -16,7 +16,6 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {
         name,
-
         setNameCallback,
         addUser,
         onEnter,
