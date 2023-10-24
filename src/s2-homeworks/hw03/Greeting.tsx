@@ -48,6 +48,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         className={inputClass}
 
                         onKeyDown={onEnter}
+
                         onBlur={onBlur}
                     />
                     <div id={'hw3-error'} className={s.error}>
