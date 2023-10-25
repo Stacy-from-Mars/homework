@@ -44,7 +44,6 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onChange={setNameCallback}
                         className={inputClass}
                         onKeyDown={onEnter}
-
                         onBlur={onBlur}
                     />
                     <div id={'hw3-error'} className={s.error}>
