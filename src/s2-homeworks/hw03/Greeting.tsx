@@ -44,6 +44,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         value={name}
 
                         onChange={setNameCallback}
+
                         className={inputClass}
                         onKeyDown={onEnter}
                         onBlur={onBlur}
