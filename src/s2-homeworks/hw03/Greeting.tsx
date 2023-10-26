@@ -13,7 +13,6 @@ type GreetingPropsType = {
     error: string // need to fix any
 
     totalUsers: number // need to fix any
-
     lastUserName?: string // need to fix any
 }
 
