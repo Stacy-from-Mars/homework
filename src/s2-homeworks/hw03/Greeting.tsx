@@ -20,7 +20,6 @@ const Greeting: React.FC<GreetingPropsType> = (
         setNameCallback,
 
         addUser,
-
         onEnter,
         onBlur,
         error,
