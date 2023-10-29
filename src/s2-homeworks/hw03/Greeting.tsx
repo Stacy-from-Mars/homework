@@ -35,6 +35,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 {'Людей добавили: '}
 
                 <span id={'hw3-users-total'}>
+
                     {totalUsers}
                 </span>
             </div>
