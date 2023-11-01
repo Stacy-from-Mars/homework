@@ -69,6 +69,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
             addUser={addUser}
 
             onBlur={onBlur}
+
             onEnter={onEnter}
             error={error}
             totalUsers={totalUsers}
