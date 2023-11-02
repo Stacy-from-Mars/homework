@@ -67,7 +67,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
             setNameCallback={setNameCallback}
 
             addUser={addUser}
-
             onBlur={onBlur}
             onEnter={onEnter}
             error={error}
