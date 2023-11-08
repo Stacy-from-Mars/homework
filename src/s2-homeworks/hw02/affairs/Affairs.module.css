@@ -23,6 +23,8 @@
 .button {
     padding: 5px 15px;
 
+    border-radius: 15px;
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
