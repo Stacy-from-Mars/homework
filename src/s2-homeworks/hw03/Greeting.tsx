@@ -24,6 +24,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         onEnter,
 
         onBlur,
+
         error,
         totalUsers,
         lastUserName,
