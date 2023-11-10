@@ -22,9 +22,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         addUser,
 
         onEnter,
-
         onBlur,
-
         error,
         totalUsers,
         lastUserName,
