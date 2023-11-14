@@ -11,6 +11,7 @@ type GreetingPropsType = {
     onEnter: (e: any) => void // need to fix any
 
     error: string // need to fix any
+
     totalUsers: number // need to fix any
     lastUserName?: string // need to fix any
 }
