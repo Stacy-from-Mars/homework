@@ -50,6 +50,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     }
 
     const onBlur = () => {
+
         pureOnBlur(name, setError)
     }
 
