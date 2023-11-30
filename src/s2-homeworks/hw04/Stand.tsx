@@ -18,7 +18,6 @@ const Stand = () => {
                 {/*совместим со старым кодом:*/}
                 <div>
                     <SuperInputText
-
                         id={'hw4-super-input-like-old'}
                         value={stateForAllInputs}
                         onChange={(e) => setValue(e.currentTarget.value)}
