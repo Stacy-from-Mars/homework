@@ -26,6 +26,7 @@ const Stand = () => {
                     <SuperInputText
                         id={'hw4-super-input-with-error'}
                         value={stateForAllInputs}
+
                         onChangeText={setValue}
                         error={error}
                         onEnter={() => {
