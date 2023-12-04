@@ -22,6 +22,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
             <Header handleOpen={handleOpen} />
             <div>
                 {/*страницы*/}
+
                 {children}
             </div>
         </>
