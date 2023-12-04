@@ -3,6 +3,7 @@ import { Header } from '../header/Header'
 import { Sidebar } from '../sidebar/Sidebar'
 
 type PropsType = {
+
     children: ReactNode
 }
 
