@@ -35,7 +35,6 @@ const Stand = () => {
                                     : 'Error'
                             )
                             setValue('')
-
                         }}
                     />
                 </div>
