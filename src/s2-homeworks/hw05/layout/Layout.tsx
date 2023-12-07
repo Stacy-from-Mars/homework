@@ -15,7 +15,6 @@ export const Layout: FC<PropsType> = ({ children }) => {
         open && (document.body.style.overflow = 'hidden')
 
         !open && (document.body.style.overflow = 'unset')
-
     }, [open]) // отключает прокрутку при открытом меню
 
     return (
